@@ -31,7 +31,7 @@ p {
   color: var(--GrayishBlue);
 }
 
-.container {
+.calculator__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,7 +39,7 @@ p {
   height: 100vh;
 }
 
-.main-container {
+.main__container {
   background-color: var(--White);
   width: 320px;
   height: 500px;
@@ -57,7 +57,7 @@ p {
   -o-transition: 300ms;
 }
 
-.main-container:hover {
+.main__container:hover {
   box-shadow: 0 5px 5px 5px hsl(218, 44%, 80%);
   transition: 300ms;
   -webkit-transition: 300ms;
