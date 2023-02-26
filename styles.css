@@ -35,7 +35,7 @@ p {
   color: var(--GrayishBlue);
 }
 
-.calculator__container {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
